@@ -17,9 +17,11 @@
     "target": "es2017",
     "module": "es2020",
     "lib": [
-      "es2018",
-      "dom"
-    ]
+      "dom",
+      "dom.iterable",
+      "es2015",
+      "scripthost"
+    ],
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
